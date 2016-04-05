@@ -1,0 +1,95 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+          <meta name="viewport" content="initial-scale=1" />
+                <title>Melanesian Women Today</title>
+                        <link rel="stylesheet" href="styles/mwt.min.css" />
+                        <link rel="stylesheet" href="styles/jquery.mobile.icons.min.css" />
+                        <link rel="stylesheet" href="styles/custom.css" />
+                        <link rel="stylesheet" href="styles/jquery.mobile.structure-1.4.5.min.css" />
+                        <script src="scripts/libs/jquery-1.11.1.min.js"></script>
+                        <script src="scripts/libs/jquery.mobile-1.4.5.min.js"></script>
+                        <script src="cordova.js"></script>
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+        <body id="index">
+
+              <div id="fb-root"></div>
+              <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+
+            <div data-role="page" data-theme="a" >
+
+
+                <div data-role="content" data-theme="a">
+                    <a href="#myPanel" > <i class="fa fa-bars"></i> </a>
+
+                    <div class="text-center">
+                        <img src="images/banner.JPG" width="90%">
+                    </div>
+
+                    <br>
+<div class="fb-page" data-href="https://www.facebook.com/melanesianwomentoday" data-tabs="timeline" data-width="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/melanesianwomentoday"><a href="https://www.facebook.com/melanesianwomentoday">Melanesian Women Today</a></blockquote></div></div>
+
+<br>
+<br>
+                    <!--Social-->
+                    <div align="center">
+                        <img src="images/twitter.png" height="30" width="30" onclick="goGetWordPressForm('http://twitter.com/melanesianwomentoday')"> </a> &nbsp; &nbsp;
+                        <img src="images/facebook.png" height="30" width="30" onclick="goGetWordPressForm('http://facebook.com/melanesianwomentoday')">  &nbsp; &nbsp;
+                        <a href="mailto:contact@melanesianwomentoday.org"> <img src="images/email.png" height="30" width="30"> </a> &nbsp; &nbsp;
+                        <a href="tel:206-855-55791"> <img src="images/phone.png" height="30" width="30"></a> &nbsp; &nbsp;
+                    </div>
+
+                </div>
+
+                <!--Panel-->
+                  <div data-role="panel" id="myPanel">
+                    <h2>Menu</h2>
+                      <a href="firstaid.html">First Aid</a><br>
+                      <a href="recipes.html">Recipes</a><br>
+                      <a href="parenting.html">Parenting</a><br>
+                      <a href="nutrition.html">Nutrition</a><br>
+
+                  </div>
+
+            </div>
+
+        </body>
+    </html>
+
+<script>
+
+// open win and turn off location
+function goGetWordPressForm(WPUrl) {
+    var ref = window.open(WPUrl, '_blank', 'location=yes,toolbar=yes,presentationstyle=formsheet,transitionstyle=crossdissolve');
+};
+
+
+
+// open win and turn off location
+
+//function goGetWordPressFormInjectCSS(WPUrl) {
+//    var ref = window.open(WPUrl, '_blank', 'location=yes,toolbar=yes,presentationstyle=formsheet,transitionstyle=crossdissolve');
+//    ref.addEventListener('loadstop', function() {
+//    ref.insertCSS({file: "styles/wp-contact7.css"});
+//                         });
+//};
+
+
+// attach listener to loadstart
+//ref.addEventListener('loadstart', function(event) {
+//var urlSuccessPage = "http://myloginapp/success/";
+//if (event.url == urlSuccessPage) {
+//ref.close();
+//}
+//});
+
+</script>
