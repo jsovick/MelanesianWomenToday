@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
   xmlns:gap = "http://phonegap.com/ns/1.0"
-  id = "org.bainbridgeyouthservices.askbys"
+  id = "org.melanesianwomentoday.www"
   version = "0.0.26">
 
-  <name>askBYS</name>
+  <name>Melanesian Women Today</name>
 
   <description>
     askbys.org mobile app
   </description>
 
-  <author href="http://askbys.org" email="askbys@bainbridgeyouthservices.org">
-    Bainbridge Youth Services
+  <author href="http://www.melanesianwomentoday.org" email="contact@melanesianwomentoday.org">
+    Melanesian Women Today
   </author>
 
 <icon src="images/icon.png" />
@@ -64,7 +64,7 @@
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 <icon src="xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
 
-<!-- Kirk Add's -->
+
 <!-- Core plugins -->
 <!--
 <gap:plugin name="org.apache.cordova.battery-status" />
